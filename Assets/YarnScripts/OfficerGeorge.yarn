@@ -1,0 +1,31 @@
+﻿title: Officergeorge
+tags:
+position: 38,-166
+---
+
+Joss: "Hey, Officer George, I heard there have been strange things happening around here. What's going on?
+Officer George: "Joss, we’re dealing with something odd in Washington. The lights flicker, weird noises at night... and people have been disappearing.
+Officer George: "I need your help to figure out what’s going on.
+
+Your options
+-> Ask where to start investigating.
+    <<jump option1>>
+-> Ask if anyone has noticed anything unusual.
+    <<jump option2>>
+
+
+===
+title: option1
+position: -134,133
+---
+Joss:Where should I start investigating?
+Officer George: "Anmol, the mechanic, noticed some electrical issues near the old power station. Go talk to him, maybe he’s seen something unusual.
+Officer George:Your next step: Go to Anmol's workshop.
+===
+title: option2
+position: 274,242
+---
+Joss:Has anyone noticed anything unusual?
+Officer George: "Some say they heard whispers in the night. And some of the lights flicker when they approach certain areas of the town.
+Officer George:Your next step: Go to Anmol's workshop.
+===
