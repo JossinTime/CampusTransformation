@@ -1,0 +1,47 @@
+﻿title: BookTable
+tags:
+---
+<<declare $hasbook = false>>
+If($hasbook = false)
+    <<jump QuestFailure>>
+else($hasbook)
+    <<jump Quest1Continue>>
+===
+title: QuestFailure
+position: 0,0
+---
+John Wick: I need to bring the book back here.
+===
+title: Quest1Continue
+position: 10,10
+---
+John Wick: Perfect here we go. Lets see... 
+<<jump Quest1Continue>>
+===
+
+
+title: Quest1Continue1
+position: 0,0
+---
+The Author: The possibilty of the seruem turning people into zombies has been calculated. Its unlikely and were working it out but yeah, defintley do not inject this on yourself to see what will happen.
+<<Quest1Continue2>>
+===
+title: Quest1Continue2
+position: 0,0
+---
+The Author: Not to worry though if you use it as a prank or on people you dont like and this gets out of control. We also figured out how to fix this potential problem.
+<<Quest1Continue3>> 
+
+===
+title: Quest1Continue3
+position: 0,0
+---
+The Author: Here are the requirements for a potential antitode. 
+<<Quest1Continue4>>
+===
+
+title: Quest1Continue4
+position: 0,0
+---
+John Wick: Perfect! But i should eat something before i get started. I find it hard to work on an empty stomach. 
+===

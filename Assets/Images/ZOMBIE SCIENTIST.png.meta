@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ZOMBIE SCIENTIST_0: 35430043532178526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

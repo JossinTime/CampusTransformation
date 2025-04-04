@@ -1,0 +1,16 @@
+﻿
+title: Quest1Book
+tags:
+---
+John Wick: Yep, this is the right book. But i shouldnt read it here. 
+        <<jump Quest1Exposition>>
+===
+
+title: Quest1Exposition
+position: 0,0
+---
+I need to go back to M building so i can safely study it there. Plus, have it on standby incase i forget something. 
+<<$hasbook = true>>
+<<DestroyBook Book>>
+
+===
