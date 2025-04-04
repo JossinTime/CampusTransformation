@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (inputY < 0)
         {
-            walkDirection = Direction.West;
+            walkDirection = Direction.South;
         }
         if (inputX == 0 && inputY == 0)
             { walkAnimator.speed = 0;
