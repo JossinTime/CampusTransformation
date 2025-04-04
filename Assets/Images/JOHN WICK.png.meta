@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JOHN WICK_0: 8519682596805486511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
