@@ -18,6 +18,8 @@ public class Zombie : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
+        rb.angularVelocity = 0;
+
         if(player != null)
         {
             rb.linearVelocity = (player.transform.position - transform.position).normalized * speed;
