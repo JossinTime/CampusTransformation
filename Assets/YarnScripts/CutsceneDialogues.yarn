@@ -5,35 +5,45 @@ tags:
 ASSIGNMENT PART 2: ACTION.
 <<play_audio AudioManager "5">>
 John: Hello officer, my name is John Wick and i am a student here, I do not know how but there are zombies outside my research lab and i am stuck here. Please save me.
+<<play_audio AudioManager "O1">>
 Officer:Calm down first, we can not open the lockdown protocol system because the zombies can escape.
 <<play_audio AudioManager "6">>
 John:what about me then?
+<<play_audio AudioManager "O2">>
 Officer:There is nothing we can do rather than giving you updates, sorry.
 <<play_audio AudioManager "7">>
 John:What do you mean, are you guys not gonna help me then why are you here go home and sleep.
+<<play_audio AudioManager "O3">>
 Officer:Sorry John but we can not put the world into danger because if one of them escapes it's all over.
 <<play_audio AudioManager "8">>
 John:Yes, I know but what about me?
+<<play_audio AudioManager "O4">>
 Officer:The President has decided to bomb the entire college with bombs tomorrow but we can give some time to make a cure for the zombies.
 <<play_audio AudioManager "9">>
 John:Okay, but how many days?
+<<play_audio AudioManager "O5">>
 Officer:You have 15 days to make the antidote and we will give you instructions to do the things which are important.
 <<play_audio AudioManager "10">>
 John:So, what is the first thing to do?
+<<play_audio AudioManager "O6">>
 Officer:John, you have to go to the library to get a book which has some important formulas that can help you to make the cure.
 <<play_audio AudioManager "12">>
 John:So, I have to go to the library and collect a book, just provide me through the internet.
+<<play_audio AudioManager "O7">>
 Officer:The book is not available anywhere else because it is handwritten and one of a kind.
 <<play_audio AudioManager "13">>
 John:Okay, then I have to go.
+<<play_audio AudioManager "O8">>
 Officer:Make sure to not make any kind of noise because zombies are attracted to sound.
 <<play_audio AudioManager "14">>
 John:I will make sure not to do that.
 
 //Mission4: Find the food, Contact military again
+<<play_audio AudioManager "O9">>
 Officer:You can not survive without food and water for 15 days.
 <<play_audio AudioManager "15">>
 John:Yes, I am feeling hungry.
+<<play_audio AudioManager "O10">>
 Officer:There is plenty of food in the cafeteria in C building, you can get food from there.
 <<play_audio AudioManager "16">>
 John:I am going to the cafeteria to get some food while making sure not to be food for zombies.
@@ -41,14 +51,17 @@ John:I am going to the cafeteria to get some food while making sure not to be fo
 //Mission5: Find Chemicals, Contact military again
 <<play_audio AudioManager "17">>
 John:I do not have enough chemicals for the antidote.
+<<play_audio AudioManager "O11">>
 Officer:John, you have a chemical storage room in your building, go and get the
 <<play_audio AudioManager "18">>
 John:Oh so rude, but I have to go.
 
 //Mission7: Spread the cure to other buildings, Contact military again
+<<play_audio AudioManager "O12">>
 Officer:John, you have to make 11 antidotes to spread in all 11 buildings of the college    by the help of air vents.
 <<play_audio AudioManager "27">>
 John:That is a great idea officer. I will do that.
+<<play_audio AudioManager "O13">>
 Officer:John, be safe my friend and ‘Best of Luck’.
 <<play_audio AudioManager "28">>
 John:Thanks, see you soon.
@@ -56,12 +69,15 @@ John:Thanks, see you soon.
 // After everyone is saved
 <<play_audio AudioManager "38">>
 John:Hey officer, I managed to do it all of the zombies are now human again, please let out now.
+<<play_audio AudioManager "O14">>
 Officer:I am proud of you John. We can not open the lockdown system off entirely because we have to make sure no zombies are left.
 <<play_audio AudioManager "39">>
 John:What proof do you need?
+<<play_audio AudioManager "O15">>
 Officer:We will only open one of the gates and then all of you have to go to a quarantine base where we will examine you guys.
 <<play_audio AudioManager "40">>
 John:Okay,That makes sense, officer
+<<play_audio AudioManager "O16">>
 Officer:Thanks John.
 
 ===
