@@ -1,6 +1,8 @@
 ﻿title: CutsceneDialogues
 tags:
 ---
+<<declare $Interaction = 0>>
+<<if $Interaction == 0>>
 //Mission2&3: Contact the military and find book, After contacting the military
 ASSIGNMENT PART 2: ACTION.
 <<change_background bgManager "LAB2_0">>
@@ -55,6 +57,10 @@ Officer:Make sure to not make any kind of noise because zombies are attracted to
 <<play_audio AudioManager "14">>
 John:I will make sure not to do that.
 
+<<set $Interaction = 2>>
+<<stop>>
+
+<<elseif $Interaction == 2>>
 //Mission4: Find the food, Contact military again
 <<change_background bgManager "MILITARY BASE_0">>
 <<play_audio AudioManager "O9">>
@@ -68,7 +74,10 @@ Officer:There is plenty of food in the cafeteria in C building, you can get food
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "16">>
 John:I am going to the cafeteria to get some food while making sure not to be food for zombies.
+<<set $Interaction = 3>>
+<<stop>>
 
+<<elseif $Interaction == 3>>
 //Mission5: Find Chemicals, Contact military again
 <<change_background bgManager "MILITARY BASE_0">>
 <<change_background bgManager "LAB2_0">>
@@ -80,7 +89,10 @@ Officer:John, you have a chemical storage room in your building, go and get the
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "18">>
 John:Oh so rude, but I have to go.
+<<set $Interaction = 4>>
+<<stop>>
 
+<<elseif $Interaction == 4>>
 //Mission7: Spread the cure to other buildings, Contact military again
 <<change_background bgManager "MILITARY BASE_0">>
 <<play_audio AudioManager "O12">>
@@ -94,7 +106,10 @@ Officer:John, be safe my friend and ‘Best of Luck’.
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "28">>
 John:Thanks, see you soon.
+<<set $Interaction = 5>>
+<<stop>>
 
+<<elseif $Interaction == 5>>
 // After everyone is saved
 <<change_background bgManager "MILITARY BASE_0">>
 <<change_background bgManager "LAB2_0">>
@@ -115,5 +130,6 @@ John:Okay,That makes sense, officer
 <<change_background bgManager "MILITARY BASE_0">>
 <<play_audio AudioManager "O16">>
 Officer:Thanks John.
+<<endif>>
 
 ===
