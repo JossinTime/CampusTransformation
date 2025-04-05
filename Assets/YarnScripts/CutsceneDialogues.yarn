@@ -56,7 +56,7 @@ Officer:Make sure to not make any kind of noise because zombies are attracted to
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "14">>
 John:I will make sure not to do that.
-
+<<change_background bgManager "Checkmark">>
 <<set $Interaction = 2>>
 <<stop>>
 
@@ -74,6 +74,7 @@ Officer:There is plenty of food in the cafeteria in C building, you can get food
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "16">>
 John:I am going to the cafeteria to get some food while making sure not to be food for zombies.
+<<change_background bgManager "Checkmark">>
 <<set $Interaction = 3>>
 <<stop>>
 
@@ -89,6 +90,7 @@ Officer:John, you have a chemical storage room in your building, go and get the
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "18">>
 John:Oh so rude, but I have to go.
+<<change_background bgManager "Checkmark">>
 <<set $Interaction = 4>>
 <<stop>>
 
@@ -106,6 +108,7 @@ Officer:John, be safe my friend and ‘Best of Luck’.
 <<change_background bgManager "LAB2_0">>
 <<play_audio AudioManager "28">>
 John:Thanks, see you soon.
+<<change_background bgManager "Checkmark">>
 <<set $Interaction = 5>>
 <<stop>>
 
@@ -130,6 +133,7 @@ John:Okay,That makes sense, officer
 <<change_background bgManager "MILITARY BASE_0">>
 <<play_audio AudioManager "O16">>
 Officer:Thanks John.
+<<change_background bgManager "Checkmark">>
 <<endif>>
 
 ===
